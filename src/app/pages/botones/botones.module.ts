@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { BotonesrPageRoutingModule } from './botonesr-routing.module';
+import { BotonesPageRoutingModule } from './botones-routing.module';
 
-import { BotonesrPage } from './botonesr.page';
+import { BotonesPage } from './botones.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    BotonesrPageRoutingModule
+    BotonesPageRoutingModule
   ],
-  declarations: [BotonesrPage]
+  declarations: [BotonesPage]
 })
-export class BotonesrPageModule {}
+export class BotonesPageModule {}

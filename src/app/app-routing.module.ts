@@ -24,9 +24,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
   },
   {
-    path: 'botonesr',
-    loadChildren: () => import('./pages/botonesr/botonesr.module').then( m => m.BotonesrPageModule)
+    path: 'botones',
+    loadChildren: () => import('./pages/botones/botones.module').then( m => m.BotonesPageModule)
   },
+
 ];
 
 @NgModule({
